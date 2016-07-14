@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368BCC9C1CC8C34F0010D40F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BCC9B1CC8C34F0010D40F /* main.m */; };
+		368BCC9F1CC8C34F0010D40F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BCC9E1CC8C34F0010D40F /* AppDelegate.m */; };
+		368BCCA21CC8C34F0010D40F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BCCA11CC8C34F0010D40F /* MasterViewController.m */; };
+		368BCCA81CC8C34F0010D40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368BCCA61CC8C34F0010D40F /* Main.storyboard */; };
+		368BCCAA1CC8C34F0010D40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368BCCA91CC8C34F0010D40F /* Assets.xcassets */; };
+		368BCCAD1CC8C34F0010D40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368BCCAB1CC8C34F0010D40F /* LaunchScreen.storyboard */; };
+		368BCCB81CC8C34F0010D40F /* ZSDateSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BCCB71CC8C34F0010D40F /* ZSDateSelectorTests.m */; };
+		368BCCC31CC8C34F0010D40F /* ZSDateSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BCCC21CC8C34F0010D40F /* ZSDateSelectorUITests.m */; };
+		368BCCD51CC8C38E0010D40F /* ZSDateSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BCCD21CC8C38E0010D40F /* ZSDateSelector.m */; };
+		368BCCD61CC8C38E0010D40F /* ZSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BCCD41CC8C38E0010D40F /* ZSDatePickerView.m */; };
+		368BCCDA1CC8C4450010D40F /* AMBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 368BCCD91CC8C4450010D40F /* AMBlurView.m */; };
+		368C65981D35E73E00119F8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 368C65951D35E73E00119F8A /* Default-568h@2x.png */; };
+		368C65991D35E73E00119F8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 368C65961D35E73E00119F8A /* Default.png */; };
+		368C659A1D35E73E00119F8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 368C65971D35E73E00119F8A /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368BCCB41CC8C34F0010D40F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368BCC8F1CC8C34F0010D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368BCC961CC8C34F0010D40F;
+			remoteInfo = ZSDateSelector;
+		};
+		368BCCBF1CC8C34F0010D40F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368BCC8F1CC8C34F0010D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368BCC961CC8C34F0010D40F;
+			remoteInfo = ZSDateSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368BCC971CC8C34F0010D40F /* ZSDateSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSDateSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368BCC9B1CC8C34F0010D40F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		368BCC9D1CC8C34F0010D40F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		368BCC9E1CC8C34F0010D40F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		368BCCA01CC8C34F0010D40F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		368BCCA11CC8C34F0010D40F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		368BCCA71CC8C34F0010D40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		368BCCA91CC8C34F0010D40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368BCCAC1CC8C34F0010D40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		368BCCAE1CC8C34F0010D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368BCCB31CC8C34F0010D40F /* ZSDateSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSDateSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368BCCB71CC8C34F0010D40F /* ZSDateSelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSDateSelectorTests.m; sourceTree = "<group>"; };
+		368BCCB91CC8C34F0010D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368BCCBE1CC8C34F0010D40F /* ZSDateSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSDateSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368BCCC21CC8C34F0010D40F /* ZSDateSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSDateSelectorUITests.m; sourceTree = "<group>"; };
+		368BCCC41CC8C34F0010D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368BCCD11CC8C38E0010D40F /* ZSDateSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDateSelector.h; sourceTree = "<group>"; };
+		368BCCD21CC8C38E0010D40F /* ZSDateSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDateSelector.m; sourceTree = "<group>"; };
+		368BCCD31CC8C38E0010D40F /* ZSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSDatePickerView.h; sourceTree = "<group>"; };
+		368BCCD41CC8C38E0010D40F /* ZSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSDatePickerView.m; sourceTree = "<group>"; };
+		368BCCD81CC8C4450010D40F /* AMBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBlurView.h; sourceTree = "<group>"; };
+		368BCCD91CC8C4450010D40F /* AMBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBlurView.m; sourceTree = "<group>"; };
+		368C65951D35E73E00119F8A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		368C65961D35E73E00119F8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		368C65971D35E73E00119F8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368BCC941CC8C34F0010D40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368BCCB01CC8C34F0010D40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368BCCBB1CC8C34F0010D40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368BCC8E1CC8C34F0010D40F = {
+			isa = PBXGroup;
+			children = (
+				368BCC991CC8C34F0010D40F /* ZSDateSelector */,
+				368BCCB61CC8C34F0010D40F /* ZSDateSelectorTests */,
+				368BCCC11CC8C34F0010D40F /* ZSDateSelectorUITests */,
+				368BCC981CC8C34F0010D40F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368BCC981CC8C34F0010D40F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368BCC971CC8C34F0010D40F /* ZSDateSelector.app */,
+				368BCCB31CC8C34F0010D40F /* ZSDateSelectorTests.xctest */,
+				368BCCBE1CC8C34F0010D40F /* ZSDateSelectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368BCC991CC8C34F0010D40F /* ZSDateSelector */ = {
+			isa = PBXGroup;
+			children = (
+				368C65941D35E73E00119F8A /* image */,
+				368BCCD01CC8C38E0010D40F /* ZSDateSelector */,
+				368BCC9D1CC8C34F0010D40F /* AppDelegate.h */,
+				368BCC9E1CC8C34F0010D40F /* AppDelegate.m */,
+				368BCCA01CC8C34F0010D40F /* MasterViewController.h */,
+				368BCCA11CC8C34F0010D40F /* MasterViewController.m */,
+				368BCCA61CC8C34F0010D40F /* Main.storyboard */,
+				368BCCA91CC8C34F0010D40F /* Assets.xcassets */,
+				368BCCAB1CC8C34F0010D40F /* LaunchScreen.storyboard */,
+				368BCCAE1CC8C34F0010D40F /* Info.plist */,
+				368BCC9A1CC8C34F0010D40F /* Supporting Files */,
+			);
+			path = ZSDateSelector;
+			sourceTree = "<group>";
+		};
+		368BCC9A1CC8C34F0010D40F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				368BCC9B1CC8C34F0010D40F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		368BCCB61CC8C34F0010D40F /* ZSDateSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				368BCCB71CC8C34F0010D40F /* ZSDateSelectorTests.m */,
+				368BCCB91CC8C34F0010D40F /* Info.plist */,
+			);
+			path = ZSDateSelectorTests;
+			sourceTree = "<group>";
+		};
+		368BCCC11CC8C34F0010D40F /* ZSDateSelectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				368BCCC21CC8C34F0010D40F /* ZSDateSelectorUITests.m */,
+				368BCCC41CC8C34F0010D40F /* Info.plist */,
+			);
+			path = ZSDateSelectorUITests;
+			sourceTree = "<group>";
+		};
+		368BCCD01CC8C38E0010D40F /* ZSDateSelector */ = {
+			isa = PBXGroup;
+			children = (
+				368BCCD71CC8C4450010D40F /* AMBlurView */,
+				368BCCD11CC8C38E0010D40F /* ZSDateSelector.h */,
+				368BCCD21CC8C38E0010D40F /* ZSDateSelector.m */,
+				368BCCD31CC8C38E0010D40F /* ZSDatePickerView.h */,
+				368BCCD41CC8C38E0010D40F /* ZSDatePickerView.m */,
+			);
+			path = ZSDateSelector;
+			sourceTree = "<group>";
+		};
+		368BCCD71CC8C4450010D40F /* AMBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				368BCCD81CC8C4450010D40F /* AMBlurView.h */,
+				368BCCD91CC8C4450010D40F /* AMBlurView.m */,
+			);
+			path = AMBlurView;
+			sourceTree = "<group>";
+		};
+		368C65941D35E73E00119F8A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				368C65951D35E73E00119F8A /* Default-568h@2x.png */,
+				368C65961D35E73E00119F8A /* Default.png */,
+				368C65971D35E73E00119F8A /* Default@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368BCC961CC8C34F0010D40F /* ZSDateSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368BCCC71CC8C34F0010D40F /* Build configuration list for PBXNativeTarget "ZSDateSelector" */;
+			buildPhases = (
+				368BCC931CC8C34F0010D40F /* Sources */,
+				368BCC941CC8C34F0010D40F /* Frameworks */,
+				368BCC951CC8C34F0010D40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSDateSelector;
+			productName = ZSDateSelector;
+			productReference = 368BCC971CC8C34F0010D40F /* ZSDateSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368BCCB21CC8C34F0010D40F /* ZSDateSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368BCCCA1CC8C34F0010D40F /* Build configuration list for PBXNativeTarget "ZSDateSelectorTests" */;
+			buildPhases = (
+				368BCCAF1CC8C34F0010D40F /* Sources */,
+				368BCCB01CC8C34F0010D40F /* Frameworks */,
+				368BCCB11CC8C34F0010D40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368BCCB51CC8C34F0010D40F /* PBXTargetDependency */,
+			);
+			name = ZSDateSelectorTests;
+			productName = ZSDateSelectorTests;
+			productReference = 368BCCB31CC8C34F0010D40F /* ZSDateSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		368BCCBD1CC8C34F0010D40F /* ZSDateSelectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368BCCCD1CC8C34F0010D40F /* Build configuration list for PBXNativeTarget "ZSDateSelectorUITests" */;
+			buildPhases = (
+				368BCCBA1CC8C34F0010D40F /* Sources */,
+				368BCCBB1CC8C34F0010D40F /* Frameworks */,
+				368BCCBC1CC8C34F0010D40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368BCCC01CC8C34F0010D40F /* PBXTargetDependency */,
+			);
+			name = ZSDateSelectorUITests;
+			productName = ZSDateSelectorUITests;
+			productReference = 368BCCBE1CC8C34F0010D40F /* ZSDateSelectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368BCC8F1CC8C34F0010D40F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sansa;
+				TargetAttributes = {
+					368BCC961CC8C34F0010D40F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					368BCCB21CC8C34F0010D40F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 368BCC961CC8C34F0010D40F;
+					};
+					368BCCBD1CC8C34F0010D40F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 368BCC961CC8C34F0010D40F;
+					};
+				};
+			};
+			buildConfigurationList = 368BCC921CC8C34F0010D40F /* Build configuration list for PBXProject "ZSDateSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368BCC8E1CC8C34F0010D40F;
+			productRefGroup = 368BCC981CC8C34F0010D40F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368BCC961CC8C34F0010D40F /* ZSDateSelector */,
+				368BCCB21CC8C34F0010D40F /* ZSDateSelectorTests */,
+				368BCCBD1CC8C34F0010D40F /* ZSDateSelectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368BCC951CC8C34F0010D40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368C659A1D35E73E00119F8A /* Default@2x.png in Resources */,
+				368BCCAD1CC8C34F0010D40F /* LaunchScreen.storyboard in Resources */,
+				368C65981D35E73E00119F8A /* Default-568h@2x.png in Resources */,
+				368BCCAA1CC8C34F0010D40F /* Assets.xcassets in Resources */,
+				368BCCA81CC8C34F0010D40F /* Main.storyboard in Resources */,
+				368C65991D35E73E00119F8A /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368BCCB11CC8C34F0010D40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368BCCBC1CC8C34F0010D40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368BCC931CC8C34F0010D40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368BCC9F1CC8C34F0010D40F /* AppDelegate.m in Sources */,
+				368BCCD51CC8C38E0010D40F /* ZSDateSelector.m in Sources */,
+				368BCCA21CC8C34F0010D40F /* MasterViewController.m in Sources */,
+				368BCC9C1CC8C34F0010D40F /* main.m in Sources */,
+				368BCCD61CC8C38E0010D40F /* ZSDatePickerView.m in Sources */,
+				368BCCDA1CC8C4450010D40F /* AMBlurView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368BCCAF1CC8C34F0010D40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368BCCB81CC8C34F0010D40F /* ZSDateSelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368BCCBA1CC8C34F0010D40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368BCCC31CC8C34F0010D40F /* ZSDateSelectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		368BCCB51CC8C34F0010D40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368BCC961CC8C34F0010D40F /* ZSDateSelector */;
+			targetProxy = 368BCCB41CC8C34F0010D40F /* PBXContainerItemProxy */;
+		};
+		368BCCC01CC8C34F0010D40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368BCC961CC8C34F0010D40F /* ZSDateSelector */;
+			targetProxy = 368BCCBF1CC8C34F0010D40F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		368BCCA61CC8C34F0010D40F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368BCCA71CC8C34F0010D40F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		368BCCAB1CC8C34F0010D40F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368BCCAC1CC8C34F0010D40F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368BCCC51CC8C34F0010D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		368BCCC61CC8C34F0010D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368BCCC81CC8C34F0010D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSDateSelector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yylcpro.ZSDateSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		368BCCC91CC8C34F0010D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSDateSelector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yylcpro.ZSDateSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		368BCCCB1CC8C34F0010D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSDateSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yylcpro.ZSDateSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSDateSelector.app/ZSDateSelector";
+			};
+			name = Debug;
+		};
+		368BCCCC1CC8C34F0010D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSDateSelectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yylcpro.ZSDateSelectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSDateSelector.app/ZSDateSelector";
+			};
+			name = Release;
+		};
+		368BCCCE1CC8C34F0010D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSDateSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yylcpro.ZSDateSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSDateSelector;
+			};
+			name = Debug;
+		};
+		368BCCCF1CC8C34F0010D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSDateSelectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yylcpro.ZSDateSelectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSDateSelector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368BCC921CC8C34F0010D40F /* Build configuration list for PBXProject "ZSDateSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368BCCC51CC8C34F0010D40F /* Debug */,
+				368BCCC61CC8C34F0010D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368BCCC71CC8C34F0010D40F /* Build configuration list for PBXNativeTarget "ZSDateSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368BCCC81CC8C34F0010D40F /* Debug */,
+				368BCCC91CC8C34F0010D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368BCCCA1CC8C34F0010D40F /* Build configuration list for PBXNativeTarget "ZSDateSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368BCCCB1CC8C34F0010D40F /* Debug */,
+				368BCCCC1CC8C34F0010D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368BCCCD1CC8C34F0010D40F /* Build configuration list for PBXNativeTarget "ZSDateSelectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368BCCCE1CC8C34F0010D40F /* Debug */,
+				368BCCCF1CC8C34F0010D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368BCC8F1CC8C34F0010D40F /* Project object */;
+}
