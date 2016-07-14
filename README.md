@@ -10,7 +10,7 @@ Aslo you can custom the date selector.
    
  <pre><code> #import "ZSDateSelector.h" </code></pre>
  
-2、使用，初始化并［ showDateSelector］;
+2、使用，初始化并［ showDateSelector］;在初始化之后可自定义dateSeletor
 <pre><code> - (void)buttonAction
 {
     ZSDateSelector *seleter = [[ZSDateSelector alloc]initWithParentView:self.view.window fromDate:_formDate endDate:_endDate];
